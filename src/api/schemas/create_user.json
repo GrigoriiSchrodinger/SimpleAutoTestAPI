@@ -1,0 +1,6 @@
+{
+  "name": "string",
+  "job": "string",
+  "id": "integer",
+  "createdAt": "date-time"
+}
