@@ -8,4 +8,3 @@ class User:
             name=self.name,
             job=self.job,
         )
-
