@@ -4,7 +4,30 @@
 
 ---
 
-<h1 align="center">Структура проекта </h1>
+<h1 align="center"> API auto-test </h1>
+An example of a simple implementation of api auto tests in python, 
+the site https://reqres.in/ is used as an example
+
+---
+
+<h1 align="center">launch</h1>
+
+First, install the dependencies:: 
+* [requests](https://pypi.org/project/requests/)
+* [jsonschema](https://pypi.org/project/jsonschema/)
+
+```
+pip install -r requirements.txt
+```
+
+Run the tests with the following command:
+```
+python3 main.py
+```
+
+---
+
+<h1 align="center">Project structure</h1>
 
 ~~~
 SimpleAutoTestApi/
@@ -28,16 +51,16 @@ SimpleAutoTestApi/
 ~~~
 
 ## asset/
-Директория, в которой находятся ресурсы (например, изображения).
+The directory where the resources (such as images) are located.
 
 ## src/
-Директория, которая содержит исходный код проекта. Она включает в себя несколько поддиректорий:
-1. **api/** - В этой директории содержатся модули связанные с api, которая тестируется, например enpoint или схемы ответов.
-2. **tests/** - Эта директория содержит файлы с тестами api.
-4. **utils/** - Эта директория содержит вспомогательные файлы и модули, например настройки логгера.
+The directory that contains the project's source code. It includes several subdirectories:
+1. **api/** - This directory contains modules related to the api being tested, such as enpoint or response schemas.
+2. **tests/** - This directory contains api test files.
+4. **utils/** - This directory contains auxiliary files and modules, such as logger settings.
 
 ## main.py
-Основной файл проекта.
+main project file.
 
 ---
 
