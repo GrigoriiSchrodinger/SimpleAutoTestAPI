@@ -4,16 +4,22 @@
 
 ~~~
 SimpleAutoTestApi/
-├── api/
-│   ├── __init__.py
-│   ├── endpoints/
-│   │   ├── ...
-│   ├── schemas/
-│   │   ├── ...
-│   ├── models/
-│   │   ├── ...
-├── tests/
-│   ├── ...
-├── config/
-│   ├── settings.py
+├── asset/
+│   └── ...
+├── src/   
+│   ├── api/
+│   │   ├── modules/
+│   │   │   └── ...
+│   │   ├── schemas/
+│   │   │   └── ...
+│   │   └── endpoint.py
+│   ├── tests/
+│   │   └── ...
+│   └── utils/
+│       └── ...
+├── main.py
+├── .gitignore
+├── README.md
+└── requirements.txt
 ~~~
+
